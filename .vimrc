@@ -11,6 +11,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on "Identify filetypes (UNIX, Windows)
 
+se ml "Modeline enables settings to be read from file
+
 "Alert if code exceeds 80 characters
 "-----------------------------------
 se columns=80
