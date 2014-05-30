@@ -28,7 +28,8 @@ se expandtab "convert tabs to spaces
 se softtabstop=4 "backspace deletes multiple spaces for indents
 " Other tab stuff: smarttab - tabs for indentation, spaces for align
 
-"Numbering
-"---------
-se nu
+"Lines
+"-----
+se nu "Line number
+se cul "Current line
 
