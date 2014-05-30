@@ -15,9 +15,9 @@ se ml "Modeline enables settings to be read from file
 
 "Alert if code exceeds 80 characters
 "-----------------------------------
-se columns=80
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"se columns=80
+highlight OverLength ctermbg=blue ctermfg=white guibg=#592929
+match OverLength /\%101v.\+/
 
 "Alignment and indentation
 "-------------------------
