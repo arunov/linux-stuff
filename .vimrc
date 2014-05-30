@@ -19,12 +19,14 @@ se columns=80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-"Tab lengths and indentation
-"---------------------------
+"Alignment and indentation
+"-------------------------
 se ai "autoindent
 se tabstop=4 "for tab
-se sw=4 "for >> and <<
-"se expandtab "convert tabs to spaces
+se sw=4 "indentation size
+se expandtab "convert tabs to spaces
+se softtabstop=4 "backspace deletes multiple spaces for indents
+" Other tab stuff: smarttab - tabs for indentation, spaces for align
 
 "Numbering
 "---------
