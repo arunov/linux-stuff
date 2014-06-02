@@ -27,6 +27,7 @@ se sw=4 "indentation size
 se expandtab "convert tabs to spaces
 se softtabstop=4 "backspace deletes multiple spaces for indents
 " Other tab stuff: smarttab - tabs for indentation, spaces for align
+se pastetoggle=<F2> "toggle paste and type settings in insert mode
 
 "Lines
 "-----
