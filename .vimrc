@@ -22,7 +22,7 @@ match OverLength /\%101v.\+/
 "Alignment and indentation
 "-------------------------
 se ai "autoindent
-se tabstop=4 "for tab
+se tabstop=4 "tab size
 se sw=4 "indentation size
 se expandtab "convert tabs to spaces
 se softtabstop=4 "backspace deletes multiple spaces for indents
