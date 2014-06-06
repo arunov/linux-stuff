@@ -1,3 +1,7 @@
+" Theme
+" -----
+colorscheme desert
+
 "Pathogen vim
 "------------
 "Reference: https://github.com/tpope/vim-pathogen
