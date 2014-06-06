@@ -34,4 +34,10 @@ se cul "Current line
 "se columns=100
 highlight OverLength ctermbg=blue ctermfg=white
 match OverLength /\%101v.\+/
+"Extra white spaces
+highlight ExtraWhitespace ctermbg=red guibg=Brown
+au ColorScheme * highlight ExtraWhitespace guibg=red
+au BufEnter * match ExtraWhitespace /\S\zs\s\+$/
+au InsertEnter * match ExtraWhitespace /\S\zs\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhiteSpace /\S\zs\s\+$/
 
