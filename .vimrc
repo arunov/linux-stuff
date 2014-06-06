@@ -13,12 +13,6 @@ filetype plugin indent on "Identify filetypes (UNIX, Windows)
 
 se ml "Modeline enables settings to be read from file
 
-"Alert if code exceeds 80 characters
-"-----------------------------------
-"se columns=80
-highlight OverLength ctermbg=blue ctermfg=white guibg=#592929
-match OverLength /\%101v.\+/
-
 "Alignment and indentation
 "-------------------------
 se ai "autoindent
@@ -33,4 +27,11 @@ se pastetoggle=<F2> "toggle paste and type settings in insert mode
 "-----
 se nu "Line number
 se cul "Current line
+
+"Highlight
+"---------
+"Exceed 100 characters in a line
+"se columns=100
+highlight OverLength ctermbg=blue ctermfg=white
+match OverLength /\%101v.\+/
 
