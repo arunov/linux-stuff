@@ -47,4 +47,10 @@ au InsertLeave * match ExtraWhiteSpace /\S\zs\s\+$/
 
 "ctags
 "-----
-set tags
+set tags=./tags;
+
+"clang-format
+"------------
+map <C-K> :pyf <path-to-this-file>/clang-format.py<CR>
+imap <C-K> <ESC>:pyf <path-to-this-file>/clang-format.py<CR>i
+
