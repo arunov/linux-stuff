@@ -51,6 +51,6 @@ set tags=./tags;
 
 "clang-format
 "------------
-map <C-K> :pyf <path-to-this-file>/clang-format.py<CR>
-imap <C-K> <ESC>:pyf <path-to-this-file>/clang-format.py<CR>i
+map <C-K> :pyf ~/linux-stuff/clang-format.py<CR>
+imap <C-K> <ESC>:pyf ~/linux-stuff/clang-format.py<CR>i
 
